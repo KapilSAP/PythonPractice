@@ -7,9 +7,7 @@ Virtual environments enable you to have an isolated space on your computer for P
 # Commands
 
 mkdir environments
-cd environments
-
-python3 -m venv my_env
+cd environment
 
 ls my_env
 
@@ -35,3 +33,5 @@ To do this, we’ll open up a command-line text editor such as nano and create a
 (my_env) sammy@sammy:~/environments\$ nano hello.py
 Once the text file opens up in the terminal window we’ll type out our program:
 print("Hello, World!")
+
+Run Jupyter

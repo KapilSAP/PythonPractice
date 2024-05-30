@@ -7,6 +7,8 @@ print("Cheers")
 
 
 # Access the indices while iterating over a list
+# First variable holds the index and second one the value
 
 for index, num in enumerate(lst):
     print(index)
+    print(f"{index} - {num}")
