@@ -8,7 +8,7 @@ print("Grocery list program")
 grocery_list = []
 
 while True: 
-    user_input = input("Enter the grocery item, type ed to end the list: ")
+    user_input = input("Enter the grocery item, type end to end the list: ")
     if user_input == "end":
         break
     grocery_list.append(user_input)
